@@ -1,57 +1,77 @@
-
-/* style.css - Starter CSS for Shannon Grant website shell */
+/* style.css - Nature-inspired, calm, polished theme */
 
 body {
-    font-family: 'Times New Roman', serif;
-    background-color: #f4f0f8; /* soft violet-ish tone */
-    color: #2a2a2a;
+    font-family: 'Lora', serif;
+    background-color: #f7f4ef; /* soft warm beige */
+    color: #333333;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #6a0dad; /* violet header */
+    background-color: #7a9e7e; /* moss green */
     color: white;
     text-align: center;
     padding: 2rem 1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.3rem;
+    margin: 0;
 }
 
 nav {
-    background-color: #2a2a2a;
-    color: white;
+    background-color: #a3bfa8; /* sage green */
     display: flex;
     justify-content: center;
     gap: 1rem;
     padding: 1rem 0;
+    border-radius: 0 0 10px 10px;
 }
 
 nav a {
-    color: white;
+    color: #333333;
     text-decoration: none;
     font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 nav a:hover {
-    text-decoration: underline;
+    background-color: #8fae8f; /* darker sage on hover */
+    color: white;
 }
 
 main {
     padding: 2rem;
-    max-width: 800px;
+    max-width: 850px;
     margin: auto;
-}
-
-h1 {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
+    line-height: 1.8;
 }
 
 h2 {
-    font-size: 1.8rem;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2rem;
     margin-top: 2rem;
 }
 
 p {
-    line-height: 1.6;
     margin-bottom: 1rem;
+}
+
+footer {
+    background-color: #7a9e7e;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    border-top: 3px solid #a3bfa8;
 }
